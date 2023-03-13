@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Egg Inventory</title>
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <style>
+      /* Define a simple grid system */
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .col {
+        flex: 1;
+        max-width: 600px;
+        padding: 0 10px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        border-radius: 40px;
+      }
+
+      th,
+      td {
+        /* border: 1px solid black; */
+        padding: 20px;
+        font-size: 24px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col">
+        <!-- <h1>Egg Inventory</h1> -->
+        <table>
+          <tr>
+            <th>Number of available eggs</th>
+          </tr>
+          <tr>
+            <td>15</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
